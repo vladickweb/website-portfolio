@@ -27,12 +27,14 @@ function App() {
 
 	return (
 		<div className='App'>
+    {/* <div className="body"> */}
 			<Navbar isScrolling={scrollHeight} setLanguage={setLanguage} />
 			<Cover language={language} />
 			<About language={language} />
 			<Slider language={language} />
 			<Tools language={language} />
 			<Info language={language} />
+    {/* </div> */}
 			<Footer language={language} />
 		</div>
 	)

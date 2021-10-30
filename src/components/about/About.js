@@ -4,7 +4,7 @@ import vladickPicture from '../../media/IMG_20210712_121108_695 (1).jpg'
 
 const About = ({ language }) => {
 	return (
-		<div className='about-container'>
+		<div className='about-container body'>
 			<div className='about-desc'>
 				{language === 'en' ? (
 					<h3>

@@ -6,7 +6,7 @@ import './Slider.css'
 
 const Slider = ({ language }) => {
 	return (
-		<div className='carousel-container'>
+		<div className='carousel-container body'>
 			<div className='carousel-title'>{language === 'en' ? <h2>My Projects</h2> : <h2>Mis Proyectos</h2>}</div>
 
 			<Carousel

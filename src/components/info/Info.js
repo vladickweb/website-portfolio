@@ -3,7 +3,7 @@ import './Info.css'
 
 const Info = ({ language }) => {
 	return (
-		<div className='info-container'>
+		<div className='info-container body'>
 			<div className='info'>
 				{language === 'en' ? (
 					<h1>Let's work together and create something unique</h1>

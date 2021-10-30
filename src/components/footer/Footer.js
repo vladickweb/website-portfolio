@@ -4,7 +4,7 @@ import resume from '../../media/CV-Europass.pdf'
 
 const Footer = ({ language }) => {
 	return (
-		<footer className='footer'>
+		<footer className='footer body'>
 			<div className='footer-info'>
 				<h1>Vladyslav Kapkan</h1>
 				{language === 'en' ? <p>Based in Murcia, Spain</p> : <p>Residiendo en Murcia, España</p>}
