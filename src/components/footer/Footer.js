@@ -13,13 +13,35 @@ const Footer = ({ language }) => {
 				{language === 'en' ? <h3>Contact me</h3> : <h3>Contáctame</h3>}
 
 				{language === 'en' ? (
-					<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
-						My resume
-					</a>
+					<div className="mt-4">
+						<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
+							My resume
+						</a>
+            <br />
+						<a
+              className="btn btn-outline-primary mt-4"
+							target='_blank'
+							rel='noreferrer'
+							href='https://www.credential.net/6da9ccf0-72e7-4bfe-b814-274b3425c535'
+						>
+							Ironhack's Certificate
+						</a>
+					</div>
 				) : (
-					<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
-						Mi CV
-					</a>
+					<div className="mt-4">
+						<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
+							Mi CV
+						</a>
+            <br />
+						<a 
+              className="btn btn-outline-primary mt-4"
+							target='_blank'
+							rel='noreferrer'
+							href='https://www.credential.net/6da9ccf0-72e7-4bfe-b814-274b3425c535'
+						>
+							Certificado Ironhack
+						</a>
+					</div>
 				)}
 			</div>
 			<div className='footer-sns'>
