@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
-import App from './App'
+import Spinner from './components/spinner/Spinner'
+
+const App = React.lazy(() => import('./App'))
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<Suspense fallback={<Spinner />}>
+			<App />
+		</Suspense>
 	</React.StrictMode>,
 	document.getElementById('root')
 )
