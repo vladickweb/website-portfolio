@@ -51,10 +51,10 @@ const Footer = ({ language }) => {
 						<i className='fab fa-linkedin linkedin' />
 					</a>
 					<a href='https://github.com/vladickweb' target='_blank' rel='noreferrer'>
-						<i class='fab fa-github github' />
+						<i className='fab fa-github github' />
 					</a>
 					<a href='mailto:vladickbaraza@gmail.com'>
-						<i class='far fa-envelope-open mail' />
+						<i className='far fa-envelope-open mail' />
 					</a>
 				</div>
 			</div>
