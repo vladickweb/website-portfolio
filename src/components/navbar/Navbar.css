@@ -20,3 +20,12 @@
   color: white;
   cursor: pointer;
 }
+
+.languages {
+  margin-right: 1rem;
+}
+.languages img {
+  cursor: pointer;
+  height: 30px;
+  margin: 0 1rem;
+}
