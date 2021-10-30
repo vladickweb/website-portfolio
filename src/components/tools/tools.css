@@ -1,0 +1,33 @@
+.tools-container {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+.tools {
+  height: 80%;
+}
+
+.tools img {
+  height: 70px;
+}
+
+@media only screen and (max-width: 960px) {
+  .tools-container {
+    height: auto;
+    width: 100%;
+  }
+
+  .tools img {
+    height: 40px;
+  }
+
+  .tools > h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+}
+
+
