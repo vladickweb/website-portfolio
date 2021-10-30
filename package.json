@@ -2,6 +2,10 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "7.20.3",
+    "node": "16.6.1"
+  },
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
     "@testing-library/jest-dom": "^5.11.6",
