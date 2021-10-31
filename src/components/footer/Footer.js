@@ -9,26 +9,17 @@ const Footer = ({ language }) => {
 				<h1>Vladyslav Kapkan</h1>
 				{language === 'en' ? <p>Based in Murcia, Spain</p> : <p>Residiendo en Murcia, España</p>}
 			</div>
-			<div className='footer-contact text-white'>
+			<div className='footer-contact'>
 				{language === 'en' ? <h3>Contact me</h3> : <h3>Contáctame</h3>}
 
 				{language === 'en' ? (
-					<div className='mt-4'>
+					<div className="mt-4">
 						<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
 							My resume
 						</a>
-						<br />
+            <br />
 						<a
-							target='_blank'
-							className='mt-4 btn btn-outline-success'
-							rel='noreferrer'
-							href='mailto:vladickbaraza@gmail.com'
-						>
-							Send email
-						</a>
-						<br />
-						<a
-							className='btn btn-outline-primary mt-4'
+              className="btn btn-outline-primary mt-4"
 							target='_blank'
 							rel='noreferrer'
 							href='https://www.credential.net/6da9ccf0-72e7-4bfe-b814-274b3425c535'
@@ -37,22 +28,13 @@ const Footer = ({ language }) => {
 						</a>
 					</div>
 				) : (
-					<div className='mt-4'>
+					<div className="mt-4">
 						<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
 							Mi CV
 						</a>
-						<br />
-						<a
-							target='_blank'
-							className='mt-4 btn btn-outline-success'
-							rel='noreferrer'
-							href='mailto:vladickbaraza@gmail.com'
-						>
-							Enviar email
-						</a>
-						<br />
-						<a
-							className='btn btn-outline-primary mt-4'
+            <br />
+						<a 
+              className="btn btn-outline-primary mt-4"
 							target='_blank'
 							rel='noreferrer'
 							href='https://www.credential.net/6da9ccf0-72e7-4bfe-b814-274b3425c535'

@@ -3,7 +3,7 @@ import './tools.css'
 
 export default function Tools({ language }) {
 	return (
-		<div className='tools-container text-center '>
+		<div className='tools-container text-center body '>
 			<div className='tools'>
 				{language === 'en' ? <h1 className='mb-5'>Technologies</h1> : <h1 className='mb-5'>Tecnologías</h1>}
 				<div className='row justify-content-center text-center align-items-center h-100'>
