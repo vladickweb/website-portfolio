@@ -14,12 +14,16 @@ const Footer = ({ language }) => {
 
 				{language === 'en' ? (
 					<div className="mt-4">
-						<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
+						<a target='_blank' className='btn btn-outline-primary footer-btn' rel='noreferrer' href={resume}>
 							My resume
 						</a>
             <br />
+			<a target='_blank' className='btn btn-outline-success mt-4 footer-btn' rel='noreferrer' href={resume}>
+							Send email
+						</a>
+            <br />
 						<a
-              className="btn btn-outline-primary mt-4"
+              className="btn btn-outline-primary mt-4 footer-btn"
 							target='_blank'
 							rel='noreferrer'
 							href='https://www.credential.net/6da9ccf0-72e7-4bfe-b814-274b3425c535'
@@ -31,6 +35,10 @@ const Footer = ({ language }) => {
 					<div className="mt-4">
 						<a target='_blank' className='btn btn-outline-primary' rel='noreferrer' href={resume}>
 							Mi CV
+						</a>
+            <br />
+			<a target='_blank' className='btn btn-outline-success mt-4 footer-btn' rel='noreferrer' href={resume}>
+							Enviar email
 						</a>
             <br />
 						<a 
