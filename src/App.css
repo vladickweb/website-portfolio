@@ -14,7 +14,7 @@ html, .body {
   overflow: hidden;
 }
 
-.shadowed {
-  -webkit-filter: drop-shadow(1px  1px  1px rgb(160, 160, 160));
-  filter: drop-shadow(1px 1px   1px rgb(160, 160, 160));
-}
+/* .shadowed {
+  -webkit-filter: drop-shadow(.5px  .5px  1px rgb(0, 0, 0));
+  filter: drop-shadow(.5px .5px   1px rgb(200, 8, 8));
+} */
