@@ -13,3 +13,8 @@ html, .body {
 .body-y {
   overflow: hidden;
 }
+
+.shadowed {
+  -webkit-filter: drop-shadow(1px  1px  1px rgb(160, 160, 160));
+  filter: drop-shadow(1px 1px   1px rgb(160, 160, 160));
+}
