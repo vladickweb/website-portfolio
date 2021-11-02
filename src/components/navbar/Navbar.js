@@ -11,7 +11,7 @@ const Navbar = ({ isScrolling, setLanguage }) => {
 	}
 
 	return (
-		<nav className={`navbar ${isScrolling > 20 ? 'scrolling body body-y' : 'body'}`}>
+		<nav className={`navbar ${isScrolling > 20 ? 'scrolling body body-y' : 'body body-y'}`}>
 			<div className='navbar-logo' onClick={toTheTop}>
 				Vladyslav Kapkan
 			</div>
