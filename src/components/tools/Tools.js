@@ -16,6 +16,13 @@ export default function Tools({ language }) {
 					</div>
 					<div className='col-6 mb-5 col-md-3'>
 						<img
+							src='https://sebastian-gomez.com/nextjs.png'
+							alt='Next JS'
+							className='shadowed'
+						/>
+					</div>
+					<div className='col-6 mb-5 col-md-3'>
+						<img
 							src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png'
 							alt='Node'
 							className='shadowed'
@@ -25,6 +32,12 @@ export default function Tools({ language }) {
 						<img
 							src='https://geekflare.com/wp-content/uploads/2019/04/express-routing-logo-65137ed3c844d05124dcfdab28263c21-ec9c1-e1554576195344.png'
 							alt='Express'
+							className='shadowed'
+						/>
+					</div>
+						<div className='col-6 mb-5 col-md-3'>
+						<img
+							src='https://code.support/wp-content/uploads/2016/04/sass.png'
 							className='shadowed'
 						/>
 					</div>
